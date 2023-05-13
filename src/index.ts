@@ -7,7 +7,7 @@ dotenv.config();
 const token = process.env.IFOOD_TOKEN;
 const date: Date = new Date('2023-01-01');
 
-let page: number = 1;
+let page: number = 0;
 let orders: any = [];
 let shouldFetch: boolean = true;
 let ordersCount: number = 0;
